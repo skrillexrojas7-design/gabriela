@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>¡Feliz Cumpleaños, Gabriela!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      color: #fff;
+      text-align: center;
+      animation: backgroundMove 10s infinite alternate;
+    }
+    @keyframes backgroundMove {
+      0% { background-position: left; }
+      100% { background-position: right; }
+    }
+    h1 {
+      font-size: 4em;
+      margin-top: 100px;
+      text-shadow: 2px 2px 5px #ff69b4;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 30px auto;
+      width: 70%;
+    }
+    .cake {
+      font-size: 5em;
+      margin: 20px 0;
+      animation: bounce 2s infinite;
+    }
+    @keyframes bounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      width: 100%;
+      font-size: 1em;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎉 ¡Feliz Cumpleaños, Gabriela! 🎉</h1>
+  <div class="cake">🎂</div>
+  <p>Que este día esté lleno de amor, alegría, regalos y momentos inolvidables. ¡Te mereces lo mejor hoy y siempre!</p>
+  <div class="footer">Hecho con cariño 💖</div>
+</body>
+</html>
